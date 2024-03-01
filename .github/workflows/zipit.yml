@@ -11,12 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Install composer dependencies
-        uses: php-actions/composer@v2
-        with:
-          dev: no
-
+        
       - name: Generate plugin artifact
         run: |
           rsync -rc --exclude-from="$GITHUB_WORKSPACE/.distignore" "$GITHUB_WORKSPACE/" release/ --delete --delete-excluded
