@@ -11,4 +11,4 @@
 Most spambots will always attempt to enter values in all fields. If the `come_and_get_it` field has a value, that means it's a bot and the form won't
 be submitted.
 
-You can modify the name of the field yourself, by using the `brevo_honeypot_name` filter (recommended).
+You can modify the `name` of the `input` field yourself, by using the `brevo_honeypot_name` filter (recommended).
