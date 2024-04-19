@@ -8,8 +8,6 @@
  * Plugin URI: https://github.com/Dan0sz/ffwp
  */
 
-defined( 'ABSPATH' ) || exit;
-
 class BrevoHoneypot {
 	/**
 	 * @var string $honeypot_name
