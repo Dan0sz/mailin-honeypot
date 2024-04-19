@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Honeypot for Brevo
  * Description: Adds logic which parses a honeypot field, called `come_and_get_it` in the Brevo plugin's signup form widgets.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: Daan from Daan.dev
  * Author URI: https://daan.dev
  * Plugin URI: https://github.com/Dan0sz/ffwp
