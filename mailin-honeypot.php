@@ -32,7 +32,7 @@ class BrevoHoneypot {
 	 * @return void
 	 */
 	public function init() {
-		if ( ! empty( $_POST[ 'come_and_get_it' ] ) ) {
+		if ( ! empty( $_POST[ $this->honeypot_name ] ) ) {
 			$_POST[ 'sib_action' ]      = 'bot';
 			$_POST[ 'sib_form_action' ] = 'bot';
 		}
