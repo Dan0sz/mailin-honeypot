@@ -1,6 +1,6 @@
 # How to use Honeypot for Brevo
 
-1. Download the `mailin-honeypot.zip` file from [the latest release](https://github.com/Dan0sz/mailin-honeypot/releases/latest).
+1. Download the [the latest release](https://github.com/Dan0sz/mailin-honeypot/releases/latest/download/mailin-honeypot.zip).
 2. Install and activate the plugin.
 3. Add a hidden `input` field to your Brevo signup form, named `come_and_get_it`, e.g.
    ````
